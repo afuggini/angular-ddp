@@ -34,3 +34,9 @@ angular.module('starter.controllers', ['angularDDP'])
 
 });
 ```
+
+If using Ionic Framework, load the module in your ```app.js``` file.
+
+```
+angular.module('starter', ['ionic', 'starter.controllers', 'starter.services', 'angularDDP'])
+```
